@@ -1,6 +1,8 @@
+import Navigation from "@/app/components/Navigation";
 function page() {
   return (
     <div>
+      <Navigation />
       <h1>The wild oasis. Welcome to the paradise. </h1>
       <a href="/cabins">Explore luxy cabin</a>
     </div>
