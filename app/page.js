@@ -1,9 +1,11 @@
-import Navigation from "@/app/components/Navigation";
+import Link from "next/link";
+
+import Navigation from "@/app/_components/Navigation";
 function page() {
   return (
     <div>
       <h1>The wild oasis. Welcome to the paradise. </h1>
-      <a href="/cabins">Explore luxy cabin</a>
+      <Link href="/cabins">Explore luxy cabin</Link>
     </div>
   );
 }
