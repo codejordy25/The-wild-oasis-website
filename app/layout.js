@@ -1,6 +1,12 @@
 import Navigation from "@/app/_components/Navigation";
 import Logo from "@/app/_components/Logo";
 
+import { Josefin_Sans } from "next/font/google";
+const josefin = Josefin_Sans({
+  subsets: ["latin"],
+  display: "swap",
+});
+
 import "@/app/_styles/globals.css";
 
 export const metadata = {
@@ -18,7 +24,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html>
-      <body className="bg-primary-900 text-gray-50 min-h-screen">
+      <body
+        className={`${josefin.className} bg-primary-900 text-gray-50 min-h-screen`}
+      >
         <header>
           <Logo />
           <Navigation />
