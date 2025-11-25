@@ -1,5 +1,5 @@
 import Link from "next/link";
-function Navigation() {
+export default function Navigation() {
   return (
     <ul>
       <li>
@@ -17,5 +17,3 @@ function Navigation() {
     </ul>
   );
 }
-
-export default Navigation;

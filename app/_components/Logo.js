@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import "@/app/_styles/globals.css";
+
 export default function Logo() {
   return (
     <Link href="/" className="flex items-center gap-4 z-10">
